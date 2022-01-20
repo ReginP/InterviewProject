@@ -100,7 +100,7 @@ class Main extends JFrame {
         back.addActionListener(f -> {
             this.setSize(1000, 500);
             this.setTitle("Navigation");
-            tips.setVisible(false);
+            root2.setVisible(false);
             root.setVisible(true);
         });
         
